@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { db } from "../utils/Firebase"; // Pastikan konfigurasi Firebase sudah benar
+import { db } from "./firebase"; // Pastikan konfigurasi Firebase sudah benar
 import { collection, deleteDoc, doc, addDoc, onSnapshot, Timestamp } from "firebase/firestore";
 
 function UserAccountTable() {
