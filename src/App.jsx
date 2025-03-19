@@ -7,7 +7,7 @@ import Login from './components/login';
 import SignUpPage from './components/SignUpPage';
 import Dashboard from './components/Dashboard';
 // import ProductList from './components/ProductList';
-import { auth } from './Firebase';
+import { auth } from '../utils/Firebase';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
