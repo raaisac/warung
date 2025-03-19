@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { auth } from '../utils/Firebase';
+import { auth } from '../firebase';
 import { getUserData } from '../utils/auth';
 
 const ProtectedRoute = ({ children, requiredRole }) => {
