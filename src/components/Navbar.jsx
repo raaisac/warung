@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { auth } from "../firebase";
+import { auth } from "./Firebase";
 import { getUserData } from "../utils/Auth";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logoo.png"
