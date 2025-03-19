@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { doc, updateDoc } from "firebase/firestore";
-import { auth, db } from "../firebase";
+import { auth, db } from "./firebase";
 
 function EditProfile() {
   const [username, setUsername] = useState("");
