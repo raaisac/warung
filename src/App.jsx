@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
 // import AdminPage from './components/AdminPage';
-import './app.css'
+import './App.css'
 
 
 
