@@ -4,7 +4,7 @@ import ProductCarousel from "./ProductCarousel";
 import EditMakan from "./EditMakan";
 import UserAccountTable from "./UserAccountTable";
 import { signOut } from "firebase/auth";
-import { auth } from "../utils/Firebase";
+import { auth } from "../Firebase";
 
 export default function ResponsiveSidebar() {
   const [isOpen, setIsOpen] = useState(false);
